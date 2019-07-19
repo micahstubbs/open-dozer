@@ -18,8 +18,8 @@
 	</a>
 </p>
 
-## 🚀 Dozer
-Dozer lets you hide menu bar items to give your Mac a cleaner look.
+## 🚀 Open Dozer
+Open Dozer lets you hide menu bar items to give your Mac a cleaner look.
 
 ###### You might also like [FiScript](https://github.com/Mortennn/FiScript), which lets you execute custom scripts on your files/folders from the context menu in Finder.
 <p align="center">
@@ -35,12 +35,12 @@ Easiest way [Homebrew Cask](https://caskroom.github.io/):
 Manual:
 
 1. [Download](https://github.com/micahstubbs/open-dozer/releases/latest), open, and drag the app to the Applications folder.
-2. Open Dozer and drag the icon in your menu bar (hold CMD) to the right so it is between some other icons.
+2. Double click the Open Dozer app and drag the icon in your menu bar (hold CMD) to the right so it is between some other icons.
 
-**Important: Dozer needs to be allowed in the accessibility preferences to work properly.**
+**Important: Open Dozer needs to be allowed in the accessibility preferences to work properly.**
 
 ## Usage
-- (CMD+drag) to move Dozer around in the menu bar.
+- (CMD+drag) to move the Dozer around in the menu bar.
 - Click the Dozer icon to hide menu bar items.
 - Click menu bar (where there are no icons) to show the menu items again.
 - Right click the Dozer icon to open preferences.
@@ -49,3 +49,5 @@ Manual:
 macOS version >= 10.13 
 
 (Dozer might still run on macOS Sierra, but some are experiencing issues with it)
+
+Open Dozer is, and always will be, open source software.
