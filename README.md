@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="200" height="200" margin-right="100%" src="https://github.com/Mortennn/Dozer/blob/master/Dozer/Resources/Assets.xcassets/AppIcon.appiconset/Icon_512x512%402x.png">
+	<img width="200" height="200" margin-right="100%" src="https://github.com/micahstubbs/open-dozer/blob/master/Dozer/Resources/Assets.xcassets/AppIcon.appiconset/Icon_512x512%402x.png">
 </p>
 <p align="center">
 <a href="https://github.com/Mortennn/Dozer/releases/latest">
