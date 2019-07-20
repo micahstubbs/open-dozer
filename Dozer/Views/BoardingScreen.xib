@@ -74,7 +74,7 @@
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lpt-Hy-Pjb">
                             <rect key="frame" x="138" y="91" width="243" height="21"/>
                             <autoresizingMask key="autoresizingMask"/>
-                            <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" title="https://github.com/Mortennn/Dozer" id="a8g-nF-3Hu">
+                            <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" title="https://github.com/micahstubbs/open-dozer" id="a8g-nF-3Hu">
                                 <font key="font" size="14" name=".SFNSText"/>
                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

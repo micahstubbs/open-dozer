@@ -28,7 +28,7 @@ class AboutVC: NSViewController {
   }
   
   @IBAction func OpenInGithubPressed(_ sender: NSButton) {
-    let githubURL = URL(string: "https://github.com/Mortennn/Dozer")!
+    let githubURL = URL(string: "https://github.com/micahstubbs/open-dozer")!
     NSWorkspace.shared.open(githubURL)
   }
 }
