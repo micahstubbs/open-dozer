@@ -370,7 +370,7 @@
 						ProvisioningStyle = Automatic;
 					};
 					NT_594147164305 = {
-						DevelopmentTeam = DE6MHLRTVN;
+						DevelopmentTeam = QRLMKBY9ZQ;
 						ProvisioningStyle = Automatic;
 						TestTargetID = NT_479945837573;
 					};
@@ -619,7 +619,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DE6MHLRTVN;
+				DEVELOPMENT_TEAM = QRLMKBY9ZQ;
 				INFOPLIST_FILE = DozerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = DozerTests;
@@ -663,7 +663,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DE6MHLRTVN;
+				DEVELOPMENT_TEAM = QRLMKBY9ZQ;
 				INFOPLIST_FILE = DozerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = DozerTests;
