@@ -362,7 +362,7 @@
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					NT_479945837573 = {
-						DevelopmentTeam = DE6MHLRTVN;
+						DevelopmentTeam = QRLMKBY9ZQ;
 						ProvisioningStyle = Automatic;
 					};
 					NT_594147164305 = {
@@ -377,6 +377,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 			);
 			mainGroup = G_8448771205358;
@@ -532,7 +533,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DE6MHLRTVN;
+				DEVELOPMENT_TEAM = QRLMKBY9ZQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -541,7 +542,7 @@
 				INFOPLIST_FILE = Dozer/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mortennn.Dozer;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.micahstubbs.open-dozer";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
@@ -633,7 +634,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DE6MHLRTVN;
+				DEVELOPMENT_TEAM = QRLMKBY9ZQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -642,7 +643,7 @@
 				INFOPLIST_FILE = Dozer/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mortennn.Dozer;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.micahstubbs.open-dozer";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
