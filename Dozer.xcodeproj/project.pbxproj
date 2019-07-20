@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C975A6822E3066D003BDA83 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C975A6722E3066D003BDA83 /* Sparkle.framework */; };
 		5AF60A78218663C1002450BD /* TestingValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF60A77218663C1002450BD /* TestingValues.swift */; };
 		BF_127671831555 /* FirstRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_158734516808 /* FirstRun.swift */; };
 		BF_176493698303 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_313939739558 /* LaunchAtLogin.framework */; };
@@ -75,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C975A6722E3066D003BDA83 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		5AF60A77218663C1002450BD /* TestingValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingValues.swift; sourceTree = "<group>"; };
 		FR_114064246828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_126152028234 /* GetLastMenuItemXPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLastMenuItemXPositionTests.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				BF_176493698303 /* LaunchAtLogin.framework in Frameworks */,
 				BF_842868813130 /* MASShortcut.framework in Frameworks */,
 				BF_457832268999 /* Sparkle.framework in Frameworks */,
+				0C975A6822E3066D003BDA83 /* Sparkle.framework in Frameworks */,
 				BF_548360096900 /* AXSwift.framework in Frameworks */,
 				BF_289565833011 /* Crashlytics.framework in Frameworks */,
 				BF_565824401567 /* Fabric.framework in Frameworks */,
@@ -206,6 +209,7 @@
 		G_2883690153011 /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
+				0C975A6722E3066D003BDA83 /* Sparkle.framework */,
 				G_2262017442691 /* Mac */,
 			);
 			name = Carthage;
@@ -537,7 +541,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"\"Frameworks\"",
+					Frameworks,
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Dozer/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -638,7 +643,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"\"Frameworks\"",
+					Frameworks,
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Dozer/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
